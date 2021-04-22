@@ -54,16 +54,6 @@ h3 {
   font-weight: normal;
   text-transform: uppercase;
 }
-.sidebar {
-  background-color: #c5d5cb, #9fa8a3, #e3e0cf;
-  font-family: "Times New Roman", Times, serif;
-}
-.sidebar ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  overflow: hidden;
-}
 
 .design-selection {
   border: 1px dotted;
@@ -81,4 +71,10 @@ h3 {
 li {
   font-family: Georgia, "Times New Roman", Times, serif;
   list-style: none;
+  font-weight: 500;
+}
+
+.select {
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 25px;
 }
