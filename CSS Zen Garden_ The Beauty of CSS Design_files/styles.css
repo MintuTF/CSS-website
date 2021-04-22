@@ -43,7 +43,6 @@ p {
 div {
   padding-left: 5%;
   padding-right: 5%;
-  background-color: slategray;
 }
 
 h3 {
@@ -77,4 +76,14 @@ li {
 .select {
   font-family: Geneva, Tahoma, sans-serif;
   font-size: 25px;
+}
+
+.explanation .benefits .requirements {
+  background-color: wheat;
+}
+footer {
+  border: 1px dotted;
+  border-radius: 10px;
+  background-color: teal;
+  margin: 0px;
 }
