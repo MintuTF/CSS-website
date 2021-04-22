@@ -24,7 +24,14 @@ footer {
 }
 
 header {
-  background-color: brown;
+  background-image: url("../images/header-css.png");
   padding: 100px;
   text-align: center;
+}
+h1 {
+  color: wheat;
+  width: 200x;
+}
+h2 {
+  color: wheat;
 }
