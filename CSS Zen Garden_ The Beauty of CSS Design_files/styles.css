@@ -43,6 +43,7 @@ p {
 div {
   padding-left: 5%;
   padding-right: 5%;
+  background-color: #c5d5cb;
 }
 
 h3 {
@@ -86,4 +87,8 @@ footer {
   border-radius: 10px;
   background-color: teal;
   margin: 0px;
+}
+
+.summary {
+  font-style: italic;
 }
