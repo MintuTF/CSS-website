@@ -37,7 +37,7 @@ header {
 p {
   margin: 0.75em 0;
   line-height: 2;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   size: 29px;
 }
 div {
@@ -53,6 +53,7 @@ h3 {
   font-size: 1.8em;
   font-weight: normal;
   text-transform: uppercase;
+  font-style: oblique;
 }
 
 .design-selection {
@@ -91,4 +92,21 @@ footer {
 
 .summary {
   font-style: italic;
+}
+
+.nav-list > a > li {
+  display: inline-block;
+
+  text-align: top;
+  width: 20%;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  background-color: rgb(168, 184, 172);
+  border: 12px solid;
+}
+
+.nav-list > a > li:hover {
+  background-color: rgb(46, 44, 78);
 }
