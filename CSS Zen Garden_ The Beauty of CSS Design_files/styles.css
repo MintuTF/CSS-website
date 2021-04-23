@@ -95,18 +95,21 @@ footer {
 }
 
 .nav-list > a > li {
-  display: inline-block;
-
-  text-align: top;
-  width: 20%;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-  background-color: rgb(168, 184, 172);
-  border: 12px solid;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .nav-list > a > li:hover {
-  background-color: rgb(46, 44, 78);
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-list {
+  margin-top: 0px;
+  background-color: #333;
+  overflow: hidden;
 }
